@@ -9,7 +9,7 @@ declare global {
 }
 
 const CtaButton = ({ onClick, text, id }: { onClick: (id: string, text: string) => void; text?: string; id: string }) => {
-  const buttonText = text || "Quero ter acesso a esse Código da Vitória que vai me permitir conseguir tudo isto acima";
+  const buttonText = text || "Quero ter acesso a esse Caminho da Vitória que vai me permitir conseguir tudo isto acima";
   return (
     <div className="w-full max-w-2xl mx-auto my-6 px-4">
       <button
@@ -91,12 +91,12 @@ export default function App() {
       {/* Desktop Top Toolbar Info Bar */}
       <header className="relative z-10 w-full max-w-4xl mx-auto px-6 py-4 border-b border-white/5 flex items-center justify-between">
         <span className="text-[10px] font-mono tracking-widest text-neutral-400">
-          PROPRIEDADE EXCLUSIVA - CÓDIGO DA VITÓRIA
+          PROPRIEDADE EXCLUSIVA - CAMINHO DA VITÓRIA
         </span>
         <div className="flex items-center gap-1.5 px-2.5 py-1 bg-neutral-900/80 backdrop-blur-md rounded-full border border-white/10">
           <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
           <span className="text-[9px] font-mono tracking-widest text-white/90 font-bold uppercase">
-            CÓDIGO DA VITÓRIA ATUALIZADO 2026
+            CAMINHO DA VITÓRIA ATUALIZADO 2026
           </span>
         </div>
       </header>
@@ -107,169 +107,169 @@ export default function App() {
         {/* Section 1: Hero Block */}
         <section className="text-center flex flex-col gap-6 py-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-amber-100 font-bold leading-tight tracking-tight drop-shadow-md">
-            Consiga de uma vez por todas se livrar da depressão, dos vícios, do desejo de suicídio e da vingança!
+            Consiga superar os momentos de enfermidade na sua vida!
           </h1>
           
           <div className="grid grid-cols-1 gap-3.5 text-left mt-4 max-w-xl mx-auto w-full">
             <div className="flex items-start gap-3 p-4 bg-neutral-900/60 backdrop-blur-sm rounded-xl border border-white/5 shadow-md">
               <Compass className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5 animate-pulse" />
-              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga deixar de sofrer pela separação de um relacionamento ou por amizades falsas.</p>
+              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga com que o inimigo da sua alma caia por terra.</p>
             </div>
             
             <div className="flex items-start gap-3 p-4 bg-neutral-900/60 backdrop-blur-sm rounded-xl border border-white/5 shadow-md">
               <Smile className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga com que Deus mude a sua vida.</p>
+              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga dar a volta por cima.</p>
             </div>
             
             <div className="flex items-start gap-3 p-4 bg-neutral-900/60 backdrop-blur-sm rounded-xl border border-white/5 shadow-md">
               <Heart className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga com que Deus realize as promessas e vitórias na sua vida.</p>
+              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga se livrar das perseguições.</p>
             </div>
             
             <div className="flex items-start gap-3 p-4 bg-neutral-900/60 backdrop-blur-sm rounded-xl border border-white/5 shadow-md">
               <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga que o Mestre Jesus te guarde dos perigos.</p>
+              <p className="text-sm sm:text-base text-neutral-200 font-medium">Consiga com que seu coração seja tocado por Deus.</p>
             </div>
           </div>
 
           <CtaButton onClick={handleCtaClick} id="cta-hero" />
         </section>
 
-        {/* Section 2: Tenha acesso ao Código da Vitória que vai te permitir: */}
+        {/* Section 2: Tenha acesso a um Caminho da Vitória que vai te permitir: */}
         <section className="py-2">
           <div className="bg-neutral-950/80 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/5 shadow-2xl">
             <h2 className="text-xl sm:text-2xl font-serif font-semibold text-amber-200 mb-6 border-b border-white/5 pb-3">
-              Tenha acesso ao Código da Vitória que vai te permitir:
+              Tenha acesso a um Caminho da Vitória que vai te permitir:
             </h2>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-orange-500 mt-1.5 flex-shrink-0" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir com que Deus te abençoe sempre e que Ele esteja com você.
+                  Conseguir com que o inimigo fuja da sua vida.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-orange-500 mt-1.5 flex-shrink-0" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir se fortalecer com a Palavra de Deus.
+                  Conseguir com que a mão de Deus entre na sua vida, cobrindo você de bênçãos sem medidas.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-orange-500 mt-1.5 flex-shrink-0" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir ter saúde e direção na vida.
+                  Conseguir se livrar das enfermidades e das portas fechadas.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-orange-500 mt-1.5 flex-shrink-0" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir ter bênçãos derramadas sem medidas na sua vida.
+                  Conseguir ter de volta o desejo de buscar a Deus.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2.5 h-2.5 rounded-full bg-orange-500 mt-1.5 flex-shrink-0" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir ter um milagre no seu relacionamento.
+                  Conseguir se livrar do cansaço e do desgaste.
                 </p>
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} id="cta-codigo-permitir" />
+          <CtaButton onClick={handleCtaClick} id="cta-caminho-permitir" />
         </section>
 
-        {/* Section 3: Com esse Código da Vitória você vai conseguir: */}
+        {/* Section 3: Com esse Caminho da Vitória você vai conseguir: */}
         <section className="py-2">
           <div className="bg-neutral-950/80 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/5 shadow-2xl">
             <h2 className="text-xl sm:text-2xl font-serif font-semibold text-amber-200 mb-6 border-b border-white/5 pb-3">
-              Com esse Código da Vitória você vai conseguir:
+              Com esse Caminho da Vitória você vai conseguir:
             </h2>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir com que todo mal na sua vida caia por terra.
+                  Conseguir abrir as portas das oportunidades.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir com que a justiça seja feita na sua vida.
+                  Conseguir ter de volta força para lutar e vencer.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir que você e as pessoas que ama sejam transformadas por Deus.
+                  Conseguir se livrar dos ataques espirituais.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir com que seus desejos sejam atendidos.
+                  Conseguir se livrar dos pensamentos de que não é capaz.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Conseguir ter a misericórdia de Deus.
+                  Conseguir guerrear contra os ataques do inimigo.
                 </p>
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} id="cta-codigo-conseguir" />
+          <CtaButton onClick={handleCtaClick} id="cta-caminho-conseguir" />
         </section>
 
-        {/* Section 4: Esse Código da Vitória é para quem: */}
+        {/* Section 4: Esse Caminho da Vitória é para quem: */}
         <section className="py-2">
           <div className="bg-neutral-950/80 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/5 shadow-2xl">
             <h2 className="text-xl sm:text-2xl font-serif font-semibold text-amber-200 mb-6 border-b border-white/5 pb-3">
-              Esse Código da Vitória é para quem:
+              Esse Caminho da Vitória é para quem:
             </h2>
             <div className="flex flex-col gap-4.5">
               <div className="flex items-start gap-3">
                 <Heart className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Quer conseguir que Deus lave a sua alma, mente e coração.
+                  Quer conseguir a ajuda de Deus.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Heart className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Quer conseguir ser confortado pela Palavra de Deus.
+                  Quer conseguir eliminar todo desejo mundano.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Heart className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Quer conseguir queimar todas as maldições da sua vida.
+                  Quer conseguir descobrir seu propósito.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Heart className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Quer conseguir ser transformado pelo Espírito Santo a cada amanhecer.
+                  Quer conseguir não dar ouvidos ao inimigo.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Heart className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Quer conseguir se encher do Espírito Santo.
+                  Quer conseguir se livrar dos pensamentos de que não vai conseguir realizar seus sonhos.
                 </p>
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} id="cta-codigo-para-quem" />
+          <CtaButton onClick={handleCtaClick} id="cta-caminho-para-quem" />
         </section>
 
-        {/* Section 5: Depoimento Maria C. */}
+        {/* Section 5: Depoimento Juliana M. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Eu estava afundada em depressão e presa em vícios que me afastavam da minha família e de Deus. Quando conheci o Código da Vitória, algo mudou dentro de mi m. Foi como se uma luz entrasse no meu coração. Hoje, não tenho mais vontade de desistir da vida, e sinto a presença de Deus me fortalecendo todos os dias. Nunca imaginei que fosse possível me sentir tão livre e feliz novamente!"
+              "Eu estava passando por um problema de saúde que já durava meses. Comecei a seguir o Caminho da Vitória e, além de sentir meu corpo se fortalecendo, a paz de Deus tomou conta de mim. Hoje, olho para trás e vejo que Ele me sustentou em cada etapa da minha caminhada."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Maria C.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Juliana M.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -279,18 +279,18 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-maria" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-juliana" />
         </section>
 
-        {/* Section 6: Depoimento Lorran M. */}
+        {/* Section 6: Depoimento Rodrigo S. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Passei por uma separação dolorosa que me deixou sem chão. Eu vivia relembrando o passado e sofrendo com amizades falsas que só me machucavam. Depois que conheci o Código da Vitória, consegui perdoar, deixar tudo nas mãos de Deus e seguir em frente. Hoje, tenho paz no meu coração e sinto que minha vida está sendo reconstruída por Ele."
+              "Parecia que tudo na minha vida estava travado e que forças espirituais queriam me destruir. Com o Caminho da Vitória, aprendi a orar e a guerrear espiritualmente. Senti o inimigo cair por terra e vi Deus abrir portas que estavam fechadas há anos."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Lorran M.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Rodrigo S.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -300,49 +300,49 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-lorran" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-rodrigo" />
         </section>
 
-        {/* Section 7: Adquirindo o Código da Vitória, você vai conseguir: */}
+        {/* Section 7: Adquirindo esse Caminho da Vitória, você vai conseguir: */}
         <section className="py-2">
           <div className="bg-neutral-950/80 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white/5 shadow-2xl">
             <h2 className="text-xl sm:text-2xl font-serif font-semibold text-amber-200 mb-6 border-b border-white/5 pb-3">
-              Adquirindo o Código da Vitória, você vai conseguir:
+              Adquirindo esse Caminho da Vitória, você vai conseguir:
             </h2>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Consigir se libertar de pensamentos negativos.
+                  Conseguir se fortalecer no Espírito de Deus.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Consigir se libertar da aflição.
+                  Conseguir ser mais fiel a Deus.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Consigir com que Deus entre com providências na sua vida.
+                  Conseguir se reconstruir.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Consigir se sentir feliz e realizado(a).
+                  Conseguir livrar sua alma das garras do inimigo.
                 </p>
               </div>
               <div className="flex items-start gap-3">
                 <Sparkles className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
                 <p className="text-neutral-200 text-sm sm:text-base font-medium">
-                  Consigir uma libertação e que o Deus grande e poderoso supra todas as suas necessidades.
+                  Conseguir parar de renunciar a Deus de uma vez por todas.
                 </p>
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} id="cta-adquirindo-codigo" />
+          <CtaButton onClick={handleCtaClick} id="cta-adquirindo-caminho" />
         </section>
 
         {/* Section 8: FAQ */}
@@ -354,10 +354,10 @@ export default function App() {
             <div className="bg-neutral-900/60 backdrop-blur-sm p-6 rounded-2xl border border-white/5">
               <div className="flex items-center gap-3 mb-2.5">
                 <MessageCircle className="w-5 h-5 text-green-400" />
-                <h3 className="font-bold text-base text-white">Como recebo meu Código da Vitória?</h3>
+                <h3 className="font-bold text-base text-white">Como recebo meu Caminho da Vitória?</h3>
               </div>
               <p className="text-neutral-300 text-sm sm:text-base leading-relaxed select-text">
-                Assim que o pagamento for confirmado, você receberá seu Código da Vitória pelo WhatsApp e terá acesso vitalício para acessar quando e onde quiser.
+                Assim que o pagamento for confirmado, você receberá seu Caminho da Vitória pelo WhatsApp e terá acesso vitalício para acessar quando e onde quiser.
               </p>
             </div>
 
@@ -373,15 +373,15 @@ export default function App() {
           </div>
         </section>
 
-        {/* Section 9: Depoimento Fernanda L. */}
+        {/* Section 9: Depoimento Patrícia A. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Antes, eu vivia com medo de tudo: de acidentes, de violência e até de perder minha família. Comecei a seguir o Código da Vitória e entreguei meu caminho ao Mestre Jesus. Desde então, sinto uma proteção incrível, portas se abrindo e bênçãos acontecendo que eu nem imaginava. Sei que não estou sozinho; Deus está comigo em cada passo."
+              "Perdi emprego, amigos e a motivação para continuar. Quando comecei a aplicar o que aprendi no Caminho da Vitória, a força voltou. Deus me deu novas oportunidades e hoje posso dizer que dei a volta por cima e estou vivendo uma nova fase."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Fernanda L.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Patrícia A.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -391,18 +391,18 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-fernanda" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-patricia" />
         </section>
 
-        {/* Section 10: Depoimento Luciana S. */}
+        {/* Section 10: Depoimento Ozamir T. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Eu estava vivendo uma injustiça no trabalho e sofrendo com problemas que pareciam perseguições espirituais. Quando comecei a praticar o Código da Vitória, foi como se as correntes se quebrassem. A justiça foi feita, minha vida financeira melhorou e eu senti como se todas as maldições que me perseguiam tivessem sido queimadas. Deus me deu vitória!"
+              "Eu sofria perseguições injustas no trabalho e até na família. Depois que coloquei em prática o Caminho da Vitória, vi a mão de Deus agir. As pessoas que me atacavam se afastaram e a paz voltou para minha vida."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Luciana S.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Ozamir T.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -412,7 +412,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-luciana" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-ozamir" />
         </section>
 
         {/* Section 11: Pricing Area */}
@@ -420,7 +420,7 @@ export default function App() {
           <div className="bg-gradient-to-b from-neutral-900 to-neutral-950 rounded-3xl p-8 sm:p-10 border border-amber-500/20 shadow-2xl text-center max-w-lg mx-auto relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500" />
             <h3 className="text-lg sm:text-xl font-medium text-neutral-400 uppercase tracking-widest mb-3 font-mono">
-              Adquira agora o Código da Vitória por:
+              Adquira agora esse Caminho da Vitória por:
             </h3>
             
             <div className="flex flex-col gap-2 items-center justify-center my-6">
@@ -432,18 +432,18 @@ export default function App() {
               </span>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} id="cta-preco-codigo" />
+          <CtaButton onClick={handleCtaClick} id="cta-preco-caminho" />
         </section>
 
-        {/* Section 12: Depoimento Paulo H. */}
+        {/* Section 12: Depoimento Eliane F. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Depois que conheci o Código da Vitória, meus dias nunca mais foram os mesmos. Eu acordo com alegria, sinto o Espírito Santo falando comigo, e até minha família percebe a diferença. Minha mente, minha alma e meu coração foram lavados. Hoje, tenho paz e propósito, porque sei que Deus está no controle."
+              "Eu vivia afastada de Deus e sem vontade de orar. Quando conheci o Caminho da Vitória, algo mudou. Senti Deus falar comigo, meu coração foi tocado e hoje tenho prazer em buscar a presença dEle todos os dias."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Paulo H.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Eliane F.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -453,18 +453,18 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-paulo" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-eliane" />
         </section>
 
-        {/* Section 13: Depoimento Rozilda M. */}
+        {/* Section 13: Depoimento Carla S. */}
         <section className="py-2">
           <div className="bg-gradient-to-br from-neutral-900 to-neutral-950 p-6 sm:p-8 rounded-2xl border border-white/5 flex flex-col justify-between shadow-lg relative">
             <div className="text-amber-400/20 text-6xl font-serif absolute top-2 left-4 pointer-events-none select-none">“</div>
             <p className="text-neutral-300 text-sm sm:text-base italic leading-relaxed relative z-10 pt-4 font-sans select-text">
-              "Eu vivia com a mente carregada, sempre pensando no pior. Depois que conheci esse método, aprendi a entregar tudo nas mãos de Deus e a enxergar a vida com outros olhos. Hoje, meus pensamentos são de paz e esperança."
+              "Eu me sentia fraca espiritualmente, sem forças para orar ou ler a Palavra. Depois que comecei o Caminho da Vitória, minha vida mudou. Hoje sinto a presença de Deus diariamente e estou firme na fé como nunca antes."
             </p>
             <div className="mt-4 pt-4 border-t border-white/5 flex items-center justify-between relative z-10">
-              <span className="text-sm font-bold text-amber-200 select-text">— Rozilda M.</span>
+              <span className="text-sm font-bold text-amber-200 select-text">— Carla S.</span>
               <div className="flex gap-1 text-amber-400">
                 <Star className="w-3.5 h-3.5 fill-current" />
                 <Star className="w-3.5 h-3.5 fill-current" />
@@ -474,7 +474,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <CtaButton onClick={handleCtaClick} text="Código da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-rozilda" />
+          <CtaButton onClick={handleCtaClick} text="Caminho da Vitória que vai me permitir conseguir tudo isto acima" id="cta-depoimento-carla" />
         </section>
 
       </main>
